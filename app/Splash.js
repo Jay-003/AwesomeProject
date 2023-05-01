@@ -5,6 +5,12 @@ import { Component } from "react/cjs/react.production.min"
 var splashScreen = require("../assets/splashScreen.jpeg")
 
 export default class Splash extends Component {
+  constructor(props) {
+    super(props)
+    setTimeout(() => {
+      this.props.navigation.navigate("Login")
+    }, 1000)
+  }
   render() {
     return (
       <ImageBackground
