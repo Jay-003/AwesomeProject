@@ -23,6 +23,6 @@
 
 import { AppRegistry } from "react-native/types"
 import App from "./login"
-import { name as appName } from "/Users/jay/Desktop/AwesomeProject/app.json"
+import { name as appName } from "app.json"
 
 AppRegistry.registerComponent(appName, () => App)
